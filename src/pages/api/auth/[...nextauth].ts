@@ -1,8 +1,10 @@
 import NextAuth, { type NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
-import { login } from "@/application/user/server/use-case";
+// import { login } from "@/application/user/server/use-case";
+//validacion de datos
 const USER_VALID_CREDENTIALS = { password: '123', email: "walter@gmail.com" };
+const user_valid_jcu= {password:'1254' , email:"servicejcu@gmail.com"};
 
 export const authOptions: NextAuthOptions = {
   providers: [
