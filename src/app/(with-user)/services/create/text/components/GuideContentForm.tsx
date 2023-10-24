@@ -13,7 +13,7 @@ import AiOptions from "./AiOptions";
 import { useToggle } from "@/hooks/shared/useToggle";
 
 export default function GuideContentForm() {
-  const walter-rodriguez = 1234
+  const walterrodriguez = 1234
   const [editorValue, setEditorValue] = useState<GuideContent[]>([]);
   const [showEditor, setShowEditor] = useState(true);
 
