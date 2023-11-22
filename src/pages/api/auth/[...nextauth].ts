@@ -5,8 +5,9 @@ import CredentialsProvider from "next-auth/providers/credentials";
 //validacion de datos
 const USER_VALID_CREDENTIALS = { password: '123', email: "walter@gmail.com" };
 const user_valid_jcu= {password:'1254' , email:"servicejcu@gmail.com"};
-const user = {password:'jcu2023' , email:'jcu@gmail.com'}
 
+const user = {password:'jcu2023' , email:'jcu@gmail.com'}
+const usuario = {password:'jcu2023' , email:'jcu@gmail.com'}
 export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
